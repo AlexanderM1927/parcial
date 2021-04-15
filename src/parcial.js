@@ -13,7 +13,8 @@ const Parcial = ({propNum1, propNum2, usuario}) => {
         {propNum1} y {propNum2}<br></br>
         <button onClick={( () => setCuenta(propNum1 + propNum2))} > Sumar</button>
         <button onClick={( () => setCuenta(propNum1 - propNum2))} > Restar</button>
-        <p>Señor, {usuario}. La suma o la resta es {cuenta}</p>
+        <p>Señor, {usuario}. La suma o la resta es:</p>
+        <h2>{cuenta}</h2>
         <br/>
        
         </>
