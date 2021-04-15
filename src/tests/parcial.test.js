@@ -2,7 +2,10 @@ import Parcial from '../parcial'
 //import { render } from '@testing-library/react'
 //import '@testing-library/jest-dom/extend-expect'
 import { shallow } from 'enzyme'
-
+/*
+1826937
+John Alexander Martinez
+*/
 
 
 describe('Pruebas sobre el componente del parcial',()=>{
